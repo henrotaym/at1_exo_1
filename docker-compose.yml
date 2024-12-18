@@ -1,0 +1,8 @@
+services:
+  app:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    image: minecraft:2.0
+    volumes:
+      - ./src:/opt/apps/app/src
